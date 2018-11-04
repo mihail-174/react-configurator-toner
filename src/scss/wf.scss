@@ -1,0 +1,44 @@
+.wf1 {
+  width: 300px;
+  input[type='text'] {
+    width: 100%;
+    background-color: transparent;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: gray;
+    padding: 10px 5px;
+    color: #fff;
+  }
+  .wf__field {
+    margin-bottom: 5px;
+  }
+  .wf__field:last-child {
+    margin-bottom: 0;
+  }
+  .wf__fields {
+    margin-bottom: 15px;
+  }
+  .wf__privacy {
+    color: #cccccc;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 15px;
+  }
+  .wf__action {
+    input {
+      background-color: #018695;
+      border: none;
+      color: #fff;
+    	padding: 6px 15px;
+    	cursor: pointer;
+    	border-radius: 2px;
+    	transition: all 0.3s;
+      width: 100%;
+      font-size: 16px;
+    	&:hover {
+    		background-color: #3b3b3b;
+    	}
+    }
+  }
+}

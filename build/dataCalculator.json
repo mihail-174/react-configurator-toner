@@ -1,0 +1,166 @@
+{
+  "toner": [
+    { "id": "0", "name": "Без тонировки", "material": "" },
+    { "id": "1", "name": "Llumar 5% (самая тёмная)", "material": "llumar" },
+    { "id": "2", "name": "Llumar 15%", "material": "llumar" },
+    { "id": "3", "name": "Llumar 35%", "material": "llumar" },
+    { "id": "4", "name": "Llumar 50%", "material": "llumar" },
+    { "id": "5", "name": "Атермальная плёнка", "material": "insulated" }
+  ],
+  "llumar": [
+    {
+      "class": "1",
+      "name": "Мини",
+      "toner": {
+        "front": "4000",
+        "front_side": "3000",
+        "back": "5000"
+      }
+    },
+    {
+      "class": "2",
+      "name": "Хетчи",
+      "toner": {
+        "front": "4000",
+        "front_side": "3000",
+        "back": "5000"
+      }
+    },
+    {
+      "class": "3",
+      "name": "Седан",
+      "toner": {
+        "front": "5000",
+        "front_side": "4000",
+        "back": "6000"
+      }
+    },
+    {
+      "class": "4",
+      "name": "Спорт",
+      "toner": {
+        "front": "6000",
+        "front_side": "4500",
+        "back": "7000"
+      }
+    },
+    {
+      "class": "5",
+      "name": "Купе",
+      "toner": {
+        "front": "7000",
+        "front_side": "5000",
+        "back": "8000"
+      }
+    },
+    {
+      "class": "6",
+      "name": "Внедорожники",
+      "toner": {
+        "front": "7000",
+        "front_side": "5000",
+        "back": "10000"
+      }
+    }
+  ],
+  "insulated": [
+    {
+      "class": "1",
+      "name": "Мини",
+      "toner": {
+        "front": "5000",
+        "front_side": "4000",
+        "back": "9000"
+      }
+    },
+    {
+      "class": "2",
+      "name": "Хетчи",
+      "toner": {
+        "front": "5000",
+        "front_side": "4000",
+        "back": "9000"
+      }
+    },
+    {
+      "class": "3",
+      "name": "Седан",
+      "toner": {
+        "front": "6000",
+        "front_side": "5000",
+        "back": "11000"
+      }
+    },
+    {
+      "class": "4",
+      "name": "Спорт",
+      "toner": {
+        "front": "6000",
+        "front_side": "5000",
+        "back": "11000"
+      }
+    },
+    {
+      "class": "5",
+      "name": "Купе",
+      "toner": {
+        "front": "7000",
+        "front_side": "6000",
+        "back": "13000"
+      }
+    },
+    {
+      "class": "6",
+      "name": "Внедорожники",
+      "toner": {
+        "front": "7000",
+        "front_side": "6000",
+        "back": "13000"
+      }
+    }
+  ],
+  "marks": [
+    {
+      "id": 0,
+      "name": "Audi",
+      "models": [
+        { "id": 0, "name": "A2", "classis": "5" },
+        { "id": 1, "name": "A3", "classis": "2" },
+        { "id": 2, "name": "A3 Sportback E-tron", "classis": "3" },
+        { "id": 3, "name": "A4", "classis": "4" },
+        { "id": 4, "name": "A5", "classis": "5" },
+        { "id": 5, "name": "A6", "classis": "6" },
+        { "id": 6, "name": "A6 Allroad", "classis": "1" },
+        { "id": 7, "name": "A7", "classis": "2" },
+        { "id": 8, "name": "A8", "classis": "3" },
+        { "id": 9, "name": "Q2", "classis": "4" },
+        { "id": 10, "name": "Q3", "classis": "5" },
+        { "id": 11, "name": "Q5", "classis": "6" },
+        { "id": 12, "name": "Q7", "classis": "1" },
+        { "id": 13, "name": "Q8", "classis": "2" },
+        { "id": 14, "name": "R8", "classis": "3" },
+        { "id": 15, "name": "TT", "classis": "4" },
+        { "id": 16, "name": "TT RS", "classis": "5" }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Lada",
+      "models": [
+        { "id": 0, "name": "Granta", "classis": "3" },
+        { "id": 1, "name": "Granta лифбек", "classis": "2" },
+        { "id": 2, "name": "Granta Sport", "classis": "4" },
+        { "id": 3, "name": "Kalina хетч", "classis": "2" },
+        { "id": 4, "name": "Kalina седан", "classis": "3" },
+        { "id": 5, "name": "Kalina Sport", "classis": "4" },
+        { "id": 6, "name": "Kalina Cross", "classis": "6" },
+        { "id": 7, "name": "Largus", "classis": "6" },
+        { "id": 8, "name": "Largus Cross", "classis": "6" },
+        { "id": 9, "name": "Vesta", "classis": "3" },
+        { "id": 10, "name": "Vesta SW", "classis": "6" },
+        { "id": 11, "name": "Vesta SW Cross", "classis": "6" },
+        { "id": 12, "name": "XRay", "classis": "6" }
+      ]
+    }
+  ]
+}

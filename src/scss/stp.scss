@@ -1,0 +1,14 @@
+.stp {
+  display: flex;
+  margin-bottom: 15px;
+}
+.stp__item {
+  margin-right: 10px;
+  &:last-child {margin-right: 0;}
+  &.active {
+    color: #007b83;
+  }
+}
+.stp__item-1 {}
+.stp__item-2 {}
+.stp__item-3 {}
