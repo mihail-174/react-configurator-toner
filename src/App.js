@@ -36,30 +36,7 @@ let initialState = {
     { id: 1, name: 'front' },
     { id: 2, name: 'front_side' },
     { id: 3, name: 'back' }
-  ],
-  // md: false,
-  // data: {
-  //     "toner": [
-  //         { "id": "0", "name": "Без тонировки", "material": "" },{ "id": "1", "name": "Llumar 5% (самая тёмная)", "material": "llumar" }
-  //     ],
-  //     "type": [
-  //         { "id": 0, "name": "Мини", "class": 1 }
-  //     ],
-  //     "llumar": [
-  //         {"class": "1","name": "Мини","toner": {"front": "4000","front_side": "3000","back": "5000"}}
-  //     ],
-  //     "insulated": [
-  //         {"class": "1","name": "Мини","toner": {"front": "4000","front_side": "3000","back": "5000"}}
-  //     ],
-  //     "marks": [
-  //         {"id": 0, "name": "Audi", "models": [{ "id": 0, "name": "A2", "classis": [1,4] }]},
-  //         {"id": 1, "name": "Audi", "models": [{ "id": 0, "name": "A2", "classis": [1,4] }]},
-  //         {"id": 1, "name": "Audi", "models": [{ "id": 0, "name": "A2", "classis": [1,4] }]},
-  //         {"id": 1, "name": "Audi", "models": [{ "id": 0, "name": "A2", "classis": [1,4] }]},
-  //         {"id": 1, "name": "Audi", "models": [{ "id": 0, "name": "A2", "classis": [1,4] }]}
-  //     ]
-  // },
-
+  ]
 }
 
 export default class App extends Component {
@@ -114,7 +91,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-	  fetch(`${process.env.PUBLIC_URL}/dataCalculator.json`)
+	  fetch(`dataCalculator.json`)
 	  .then(res => res.json())
 	  .then(
 		  (result) => {
@@ -133,10 +110,6 @@ export default class App extends Component {
 			  });
 		  }
 	  )
-      // this.setState({
-      //     ...initialState,
-      //     data: this.props.data
-      // })
   }
 
 }
