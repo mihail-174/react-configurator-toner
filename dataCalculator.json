@@ -1,0 +1,148 @@
+{
+  "toner": [
+    { "id": 0, "name": "Без тонировки", "material": "" },
+    { "id": 1, "name": "Llumar 5% (самая тёмная)", "material": "llumar" },
+    { "id": 2, "name": "Llumar 15%", "material": "llumar" },
+    { "id": 3, "name": "Llumar 35%", "material": "llumar" },
+    { "id": 4, "name": "Llumar 50%", "material": "llumar" },
+    { "id": 5, "name": "Атермальная плёнка", "material": "insulated" }
+  ],
+  "type": [
+      { "id": 0, "name": "Мини", "classis": 1 },
+      { "id": 1, "name": "Хэтчбек", "classis": 2 },
+      { "id": 2, "name": "Седан", "classis": 3 },
+      { "id": 3, "name": "Спорт", "classis": 4 },
+      { "id": 4, "name": "Купе", "classis": 5 },
+      { "id": 5, "name": "Универсал", "classis": 6 },
+      { "id": 6, "name": "Внедорожники", "classis": 7 }
+  ],
+  "llumar": [
+    {
+      "class": 0,
+      "name": "Мини",
+      "toner": {
+          "front": 4000, "front_side": 3000, "back": 5000
+      }
+    },
+    {
+      "class": 1,
+      "name": "Хэтчбек",
+      "toner": {
+        "front": 4000, "front_side": 3000, "back": 5000
+      }
+    },
+    {
+      "class": 2,
+      "name": "Седан",
+      "toner": {
+        "front": "5000", "front_side": "4000", "back": "6000"
+      }
+    },
+    {
+      "class": 3,
+      "name": "Спорт",
+      "toner": {
+        "front": 6000, "front_side": 4500, "back": 7000
+      }
+    },
+    {
+      "class": 4,
+      "name": "Купе",
+      "toner": {
+        "front": 7000, "front_side": 5000, "back": 8000
+      }
+    },
+    {
+      "class": 5,
+      "name": "Универсал",
+      "toner": {
+        "front": 7000, "front_side": 5000, "back": 10000
+      }
+    },
+    {
+      "class": 6,
+      "name": "Внедорожники",
+      "toner": {
+        "front": 7000, "front_side": 5000, "back": 10000
+      }
+    }
+  ],
+  "insulated": [
+    {
+      "class": 0,
+      "name": "Мини",
+      "toner": {
+        "front": 5000, "front_side": 4000, "back": 9000
+      }
+    },
+    {
+      "class": 1,
+      "name": "Хэтчбек",
+      "toner": {
+        "front": 5000, "front_side": 4000, "back": 9000
+      }
+    },
+    {
+      "class": 2,
+      "name": "Седан",
+      "toner": {
+        "front": 6000, "front_side": 5000, "back": 11000
+      }
+    },
+    {
+      "class": 3,
+      "name": "Спорт",
+      "toner": {
+        "front": 6000, "front_side": 5000, "back": 11000
+      }
+    },
+    {
+      "class": 4,
+      "name": "Купе",
+      "toner": {
+        "front": 7000, "front_side": 6000, "back": 13000
+      }
+    },
+    {
+      "class": 5,
+      "name": "Универсал",
+      "toner": {
+        "front": 7000, "front_side": 6000, "back": 13000
+      }
+    },
+    {
+      "class": 6,
+      "name": "Внедорожники",
+      "toner": {
+        "front": 7000, "front_side": 6000, "back": 13000
+      }
+    }
+  ],
+  "marks": [
+    {
+      "id": 1,
+      "name": "Audi",
+      "models": [
+        { "name": "A2", "classis": [1,4,7] },
+        { "name": "A3", "classis": [2,5] },
+        { "name": "A4", "classis": [4] },
+        { "name": "A5", "classis": [1,5] },
+        { "name": "A6", "classis": [6] }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lada",
+      "models": [
+        { "name": "Granta", "classis": [3] },
+        { "name": "Kalina", "classis": [2,3,4,6] },
+        { "name": "Largus", "classis": [5] },
+        { "name": "Largus Cross", "classis": [5] },
+        { "name": "Vesta", "classis": [3] },
+        { "name": "Vesta SW", "classis": [3] },
+        { "name": "Vesta SW Cross", "classis": [3,7] },
+        { "name": "XRay", "classis": [7] }
+      ]
+    }
+  ]
+}
